@@ -254,7 +254,10 @@ em {
   .row{
     padding-left: 0;
   }
-  .one-one{
+}
 
+@media (max-width:980px){
+  .row-2 {
+    padding-left: 0;
   }
 }
