@@ -1,0 +1,260 @@
+body {
+  background-color: #001524;
+  text-align: center;
+}
+
+.hw {
+  color: #001524;
+}
+
+h1 {
+  color: #FFEFD3;
+  font-size: 4rem;
+}
+
+.container-fluid {
+  padding: 3% 5% 7%;
+}
+
+.navbar {
+  color: #FFEFD3;
+  /* padding-right: 32%; */
+  position: static;
+}
+
+.navbar-brand{
+  font-size: 1.7rem;
+}
+
+.color {
+  color: #FFEFD3;
+}
+
+.nav-link {
+  left: 100px;
+  font-size: 1.7rem;
+  color: #FFEFD3;
+}
+
+.heading {
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+.btn {
+  background-color: #FFEFD3;
+}
+
+p {
+  color: #FFEFD3;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+h2 {
+  color: #FFEFD3;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.me {
+  height: auto;
+  width: 85%;
+}
+
+.college {
+  position: absolute;
+  text-align: left;
+  right: 19%;
+  line-height: 0.5;
+}
+
+.hsc {
+  position: absolute;
+  text-align: right;
+  left: 30%;
+  line-height: 0.5;
+}
+
+.sc {
+  position: absolute;
+  text-align: left;
+  right: 30%;
+  line-height: 0.5;
+}
+
+.v1 {
+  border-left: 1px solid #FFEFD3;
+  position: absolute;
+  height: 500px;
+  left: 50%;
+  margin-left: -3px;
+}
+
+@media (max-width:1366px){
+  .v1 {
+    left: 25%;
+  }
+  .college{
+    left: 28%;
+  }
+  .hsc{
+    text-align: left;
+    left: 28%;
+  }
+  .sc{
+    left: 28%;
+  }
+}
+
+@media (max-width:700px){
+  .hsc, .sc{
+    left: 28%;
+    line-height: 1;
+    display: inline;
+  }
+  .college{
+    line-height: 1;
+  }
+  .v1 {
+    height: 600px;
+  }
+}
+
+@media (max-width:500px){
+  .v1 {
+    left: 5%;
+  }
+  .college{
+    left: 9%;
+  }
+  .hsc{
+    text-align: left;
+    left: 9%;
+  }
+  .sc{
+    left: 9%;
+  }
+}
+
+hr {
+  width: 1;
+  height: 200px;
+}
+
+h3 {
+  color: #FFEFD3;
+}
+
+span{
+  font-weight: bold;
+}
+
+li {
+  color: #FFEFD3;
+}
+
+.exp{
+  text-align: left;
+}
+
+/* Experience */
+
+.v2, .v3 {
+  border-left: 1px solid #FFEFD3;
+  height: 1000px;
+  position: absolute;
+  margin-left: -3px;
+
+}
+
+.Infosys, .drdo, .uav, .bi_alarm {
+  text-align: left;
+  padding-left: 5%;
+}
+
+.circular-progress {
+  position: relative;
+  display: inline-block;
+}
+
+.circular-progress-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #001524;
+  overflow: hidden;
+}
+
+.segment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vw;
+  background-color: #FFEFD3;
+  transform-origin: 0 0;
+}
+
+.circular-progress-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 130px;
+  height: 130px;
+  transform: translateX(-50%) translateY(-50%);
+  background: #001524;
+  border-radius: 50%;
+  box-shadow: inset rgba(34, 36, 38, 0.15) 0px 0px 3px 2px;
+}
+
+.circular-progress-value {
+  position: absolute;
+  font-size: 200%;
+  color: #FFEFD3;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.row {
+  padding-left: 7%;
+}
+
+.col-lg-2 {
+  margin-right: 40px;
+}
+
+.row-2 {
+  padding-left: 32%;
+}
+
+hr {
+  width: 32%;
+  color: #FFEFD3;
+  height: 20px;
+  text-align: center;
+  margin-left: 35%;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-left: 1%;
+}
+
+em {
+  color: #FFEFD3;
+}
+
+@media (max-width:715px) {
+  .row-2{
+    padding-left: 0;
+  }
+  .row{
+    padding-left: 0;
+  }
+  .one-one{
+
+  }
+}
