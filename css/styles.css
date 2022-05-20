@@ -3,8 +3,26 @@ body {
   text-align: center;
 }
 
-.hw {
+.hover {
+  border-color: #FFEFD3;
+  color: #FFEFD3;
+}
+
+.hover:hover {
+  background-color: #FFEFD3;
   color: #001524;
+}
+
+.navbar-dark .navbar-brand {
+  color: #FFEFD3;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,239,211,.55);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,239,211);
 }
 
 h1 {
@@ -19,11 +37,18 @@ h1 {
 .navbar {
   color: #FFEFD3;
   /* padding-right: 32%; */
-  position: static;
+  position: sticky;
 }
 
 .navbar-brand{
   font-size: 1.7rem;
+}
+
+.up {
+  position: fixed;
+  right: 5%;
+  top: 80%;
+  font-size: 3rem;
 }
 
 .color {
@@ -42,7 +67,7 @@ h1 {
 }
 
 .btn {
-  background-color: #FFEFD3;
+  background-color: #001524;
 }
 
 p {
@@ -105,6 +130,10 @@ h2 {
   .sc{
     left: 28%;
   }
+  .vidya{
+    position: relative;
+    left: 5%;
+  }
 }
 
 @media (max-width:700px){
@@ -135,7 +164,9 @@ h2 {
   .sc{
     left: 9%;
   }
+
 }
+
 
 hr {
   width: 1;
@@ -173,51 +204,6 @@ li {
   padding-left: 5%;
 }
 
-.circular-progress {
-  position: relative;
-  display: inline-block;
-}
-
-.circular-progress-circle {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-color: #001524;
-  overflow: hidden;
-}
-
-.segment {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
-  height: 100vw;
-  background-color: #FFEFD3;
-  transform-origin: 0 0;
-}
-
-.circular-progress-inner {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 130px;
-  height: 130px;
-  transform: translateX(-50%) translateY(-50%);
-  background: #001524;
-  border-radius: 50%;
-  box-shadow: inset rgba(34, 36, 38, 0.15) 0px 0px 3px 2px;
-}
-
-.circular-progress-value {
-  position: absolute;
-  font-size: 200%;
-  color: #FFEFD3;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .row {
   padding-left: 7%;
 }
@@ -227,7 +213,7 @@ li {
 }
 
 .row-2 {
-  padding-left: 32%;
+  padding-left: 30%;
 }
 
 hr {
@@ -254,10 +240,27 @@ em {
   .row{
     padding-left: 0;
   }
+  /* .one-one{
+
+  } */
 }
 
-@media (max-width:980px){
-  .row-2 {
-    padding-left: 0;
-  }
+.dota {
+  height: 30%;
+  width: 10%;
+  background-color: #FFEFD3;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
 }
+
+.dot {
+  height: 30%;
+  width: 10%;
+  background-color: rgba(255,239,211,.55);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:10px;
+}
+
+@media(max-width)
