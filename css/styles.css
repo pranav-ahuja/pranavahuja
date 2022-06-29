@@ -9,69 +9,184 @@ body {
   }
 }
 
-.hover {
-  border-color: #FFEFD3;
-  color: #FFEFD3;
+.first {
+  color: #FFECD1;
+  position: relative;
+  top: 250px;
 }
 
-.hover:hover {
-  background-color: #FFEFD3;
+.icon-head {
+  font-size: 2.5rem;
+  margin-left: 1%;
+  margin-top: 2%;
+  transition: transform .2s;
+}
+
+.icon-head:hover {
+  transform: scale(1.5);
+}
+
+.btn1 {
+  background-color: #FFECD1;
+  position: relative;
+  top: 100px;
+  text-decoration: none;
   color: #001524;
+  transition: transform .2s;
 }
 
-.navbar-dark .navbar-brand {
-  color: #FFEFD3;
+.btn1:hover {
+  transform: scale(1.2);
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255,239,211,.55);
+.photo {
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+  position: relative;
+  top: 250px;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(255,239,211);
+.about_me {
+  position: absolute;
+  left: 30%;
+  width: 5%;
+  height: auto;
+  bottom: 60%;
+  transition: transform .2s;
 }
 
-h1 {
-  color: #FFEFD3;
-  font-size: 4rem;
+.about_me:hover {
+  transform: scale(1.2);
 }
 
-.container-fluid {
-  padding: 3% 5% 7%;
+.about_me_text {
+  position: absolute;
+  left: 30%;
+  width: 5%;
+  height: auto;
+  bottom: 55%;
+  color: #FFECD1;
 }
 
-.navbar {
-  color: #FFEFD3;
-  /* padding-right: 32%; */
-  position: sticky;
+.education {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  right: 30%;
+  bottom: 60%;
+  transition: transform .2s;
 }
 
-.navbar-brand{
-  font-size: 1.7rem;
+.education:hover {
+  transform: scale(1.2);
 }
 
-.up {
-  position: fixed;
-  right: 5%;
-  top: 80%;
-  font-size: 3rem;
+.education_text {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  right: 30%;
+  bottom: 55%;
+  color: #FFECD1;
 }
 
-.color {
-  color: #FFEFD3;
+.project {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  left: 20%;
+  bottom: 40%;
+  transition: transform .2s;
 }
 
-.nav-link {
-  left: 100px;
-  font-size: 1.7rem;
-  color: #FFEFD3;
+.project:hover {
+  transform: scale(1.2);
 }
 
-.heading {
-  padding-top: 10%;
-  padding-bottom: 15%;
+.project_text {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  left: 20%;
+  bottom: 35%;
+  color: #FFECD1;
 }
 
+.work {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  right: 20%;
+  bottom: 40%;
+  transition: transform .2s;
+}
+
+.work:hover {
+  transform: scale(1.2);
+}
+
+.work_text {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  right: 20%;
+  bottom: 35%;
+  color: #FFECD1;
+}
+
+.certificate {
+  position: absolute;
+  left: 30%;
+  width: 5%;
+  height: auto;
+  bottom: 20%;
+  transition: transform .2s;
+}
+
+.certificate:hover {
+  transform: scale(1.2);
+}
+
+.certificate_text {
+  position: absolute;
+  left: 30%;
+  width: 5%;
+  height: auto;
+  bottom: 15%;
+  color: #FFECD1;
+}
+
+.skills {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  right: 30%;
+  bottom: 20%;
+  transition: transform .2s;
+}
+
+.skills:hover {
+  transform: scale(1.2);
+}
+
+.skills_text {
+  position: absolute;
+  height: auto;
+  width: 5%;
+  right: 30%;
+  bottom: 15%;
+  color: #FFECD1;
+}
+
+.tagline {
+  color: #FFECD1;
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+}
+
+/* About Me */
 .all-me{
   text-align: justify;
 }
@@ -256,6 +371,12 @@ em {
   } */
 }
 
+.download-button {
+  position: relative;
+  top: 0px;
+}
+
+/* Skills */
 .dota {
   height: 20px;
   width: 20px;
