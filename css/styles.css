@@ -9,6 +9,14 @@ body {
   }
 }
 
+.up {
+  position: fixed;
+  right: 5%;
+  top: 80%;
+  font-size: 3rem;
+}
+
+
 .first {
   color: #FFECD1;
   position: relative;
@@ -374,6 +382,34 @@ em {
 .download-button {
   position: relative;
   top: 0px;
+}
+
+/* Certificate */
+
+.medal {
+  position: relative;
+  height: auto;
+  width: 25%;
+  transition: transform.2s;
+}
+
+.cert {
+  color: #FFEFD3;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.cert_p {
+  text-align: left;
+}
+
+.r-hover:hover .medal {
+  transform: scale(1.5)
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Skills */
